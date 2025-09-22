@@ -18,13 +18,14 @@ body {
   line-height: 1.6;
   color: #EFE7AC; /* Hellgrün für Text */
   background-color: #670915; /* Dunkelrot als Hintergrund */
-  overflow-x: hidden;
+  overflow-x: visible;
 }
 
 #root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: visible;
 }
 
 /* Scroll-Verhalten */

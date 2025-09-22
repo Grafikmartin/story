@@ -5,10 +5,10 @@ import './MainContent.css';
 const MainContent: React.FC = () => {
   return (
     <main className="main-content">
+      <section className="hero-section">
+        <AnimatedTitle />
+      </section>
       <div className="container">
-        <section className="hero-section">
-          <AnimatedTitle />
-        </section>
         
         <section className="content-section" id="bereich-1">
           <AnimatedTitle />
