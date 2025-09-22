@@ -5,13 +5,12 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .header-content {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 15vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,6 +56,7 @@
   .header-content {
     flex-direction: column;
     gap: 1rem;
+    padding: 0 10vw;
   }
   
   .logo {
@@ -81,7 +81,7 @@
   }
   
   .header-content {
-    padding: 0 0.5rem;
+    padding: 0 10vw;
   }
   
   .navigation {

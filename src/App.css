@@ -44,7 +44,7 @@ button {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 15vw;
 }
 
 /* Utility Classes */
@@ -72,12 +72,12 @@ button {
 @media (max-width: 768px) {
   .container {
     max-width: 720px;
-    padding: 0 0.75rem;
+    padding: 0 10vw;
   }
 }
 
 @media (max-width: 480px) {
   .container {
-    padding: 0 0.5rem;
+    padding: 0 10vw;
   }
 }

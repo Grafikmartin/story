@@ -1,4 +1,5 @@
 import React from 'react';
+import AnimatedTitle from './AnimatedTitle';
 import './MainContent.css';
 
 const MainContent: React.FC = () => {
@@ -11,8 +12,7 @@ const MainContent: React.FC = () => {
         </section>
         
         <section className="content-section" id="bereich-1">
-          <h2>Bereich 1</h2>
-          <p>Dies ist der Inhalt für Bereich 1. Hier können Sie beliebige Inhalte hinzufügen.</p>
+          <AnimatedTitle />
         </section>
         
         <section className="content-section" id="bereich-2">

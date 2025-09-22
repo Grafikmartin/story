@@ -1,0 +1,81 @@
+.animated-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  overflow: hidden;
+}
+
+.title-line {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 8rem;
+  color: var(--light-green);
+  line-height: 1;
+  margin: 0;
+  opacity: 0;
+  transform: translateX(-100vw);
+  animation: slideInFromLeft 0.8s ease-out forwards;
+}
+
+.title-line.line-2 {
+  animation-delay: 0.5s;
+  transform: translateX(100vw);
+  animation-name: slideInFromRight;
+}
+
+.title-line.line-3 {
+  animation-delay: 1s;
+  transform: translateX(-100vw);
+  animation-name: slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100vw);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100vw);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .title-line {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-line {
+    font-size: 4rem;
+  }
+  
+  .animated-title {
+    min-height: 50vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-line {
+    font-size: 2.5rem;
+  }
+  
+  .animated-title {
+    min-height: 40vh;
+  }
+}
