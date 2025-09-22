@@ -7,8 +7,7 @@ const MainContent: React.FC = () => {
     <main className="main-content">
       <div className="container">
         <section className="hero-section">
-          <h1>Willkommen auf unserer Website</h1>
-          <p>Eine moderne, responsive React/TypeScript-Anwendung mit den gewünschten Farben und Design.</p>
+          <AnimatedTitle />
         </section>
         
         <section className="content-section" id="bereich-1">
