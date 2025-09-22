@@ -5,6 +5,8 @@
   justify-content: center;
   min-height: 60vh;
   overflow: hidden;
+  width: 100vw;
+  position: relative;
 }
 
 .title-line {
@@ -15,26 +17,26 @@
   line-height: 1;
   margin: 0;
   opacity: 0;
-  transform: translateX(-100vw);
+  transform: translateX(-120vw);
   animation: slideInFromLeft 0.8s ease-out forwards;
 }
 
 .title-line.line-2 {
   animation-delay: 0.5s;
-  transform: translateX(100vw);
+  transform: translateX(120vw);
   animation-name: slideInFromRight;
 }
 
 .title-line.line-3 {
   animation-delay: 1s;
-  transform: translateX(-100vw);
+  transform: translateX(-120vw);
   animation-name: slideInFromLeft;
 }
 
 @keyframes slideInFromLeft {
   0% {
     opacity: 0;
-    transform: translateX(-100vw);
+    transform: translateX(-120vw);
   }
   100% {
     opacity: 1;
@@ -45,7 +47,7 @@
 @keyframes slideInFromRight {
   0% {
     opacity: 0;
-    transform: translateX(100vw);
+    transform: translateX(120vw);
   }
   100% {
     opacity: 1;
