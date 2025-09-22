@@ -12,25 +12,25 @@
 }
 
 .title-line {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  font-family: 'Prata', serif;
+  font-weight: 400;
   font-size: 8rem;
   color: var(--light-green);
   line-height: 1;
   margin: 0;
   opacity: 0;
   transform: translateX(-120vw);
-  animation: slideInFromLeft 0.8s ease-out forwards;
+  animation: slideInFromLeft 2.5s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
 }
 
 .title-line.line-2 {
-  animation-delay: 0.5s;
+  animation-delay: 1.2s;
   transform: translateX(120vw);
   animation-name: slideInFromRight;
 }
 
 .title-line.line-3 {
-  animation-delay: 1s;
+  animation-delay: 2.4s;
   transform: translateX(-120vw);
   animation-name: slideInFromLeft;
 }
@@ -39,6 +39,10 @@
   0% {
     opacity: 0;
     transform: translateX(-120vw);
+  }
+  70% {
+    opacity: 1;
+    transform: translateX(8vw);
   }
   100% {
     opacity: 1;
@@ -50,6 +54,10 @@
   0% {
     opacity: 0;
     transform: translateX(120vw);
+  }
+  70% {
+    opacity: 1;
+    transform: translateX(-8vw);
   }
   100% {
     opacity: 1;

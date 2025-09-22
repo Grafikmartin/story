@@ -11,12 +11,20 @@ const MainContent: React.FC = () => {
       <div className="container">
         
         <section className="content-section" id="bereich-1">
-          <AnimatedTitle />
+          <p>Darunter folgt der Einleitungstext.</p>
+          <p>Er öffnet die Tür zum Inhalt.</p>
+          <p>Er erklärt in wenigen Sätzen, worum es geht.</p>
+          <p>Er lädt den Leser ein, weiterzulesen – ohne zu viel vorwegzunehmen.</p>
+          <p>Ein guter Einleitungstext schafft Orientierung, weckt Interesse und macht den Übergang von der großen Überschrift zum eigentlichen Inhalt leicht.</p>
         </section>
         
         <section className="content-section" id="bereich-2">
           <h2>Bereich 2</h2>
-          <p>Dies ist der Inhalt für Bereich 2. Die Seite ist vollständig responsive und scrollt von oben nach unten.</p>
+          <p>Darunter folgt der Einleitungstext.</p>
+          <p>Er öffnet die Tür zum Inhalt.</p>
+          <p>Er erklärt in wenigen Sätzen, worum es geht.</p>
+          <p>Er lädt den Leser ein, weiterzulesen – ohne zu viel vorwegzunehmen.</p>
+          <p>Ein guter Einleitungstext schafft Orientierung, weckt Interesse und macht den Übergang von der großen Überschrift zum eigentlichen Inhalt leicht.</p>
         </section>
         
         <section className="content-section" id="bereich-3">
