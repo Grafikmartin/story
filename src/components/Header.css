@@ -30,8 +30,8 @@
 }
 
 .nav-button {
-  background: none;
-  border: 2px solid #EFE7AC; /* Hellgrün */
+  background-color: #C00C24; /* Hellrot */
+  border: none;
   color: #EFE7AC; /* Hellgrün */
   padding: 0.5rem 1rem;
   font-family: 'Roboto', sans-serif;
@@ -39,11 +39,11 @@
   font-size: 0.9rem;
   cursor: pointer;
   transition: all 0.3s ease;
-  border-radius: 4px;
+  border-radius: 50px; /* 50% abgerundet */
 }
 
 .nav-button:hover {
-  background-color: #EFE7AC; /* Hellgrün */
+  background-color: #E67F22; /* Orange */
   color: #670915; /* Dunkelrot */
   transform: translateY(-2px);
 }
